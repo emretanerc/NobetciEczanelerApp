@@ -11,7 +11,9 @@ En yakın eczane bölümündede konum stabil çalışmıyor. Boş vakit bulduğu
 ![](preview.gif)
 
 
-
+#Veriler https://eczaci-api.herokuapp.com adresinden çekilmektedir. 
+#Ahmet Kaptan'a bu API için teşekkür ederim. 
+#Api Repo https://github.com/codescaptain/eczaci-api
 
 
 
