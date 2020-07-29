@@ -1,0 +1,2 @@
+rootProject.name='Dini Duvar Kağıtları'
+include ':app'

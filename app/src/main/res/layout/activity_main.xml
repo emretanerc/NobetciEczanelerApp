@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#D30000"
+    android:gravity="center"
+    android:orientation="vertical"
+    app:layout_anchorGravity="center">
+
+   <TextView
+       android:id="@+id/textView"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_weight="0.7"
+       android:fontFamily="@font/bold"
+       android:gravity="bottom|center"
+       android:text="Nöbetçi Eczane"
+       android:textAlignment="center"
+       android:textColor="#FFFFFF"
+       android:textSize="40sp" />
+
+   <com.airbnb.lottie.LottieAnimationView
+       android:id="@+id/animation"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:layout_marginLeft="100dp"
+       android:layout_marginTop="10dp"
+       android:layout_marginRight="100dp"
+       android:layout_marginBottom="300dp"
+       android:layout_weight="0.4"
+       android:scaleType="fitCenter"
+       app:lottie_autoPlay="true"
+       app:lottie_loop="true"
+       app:lottie_rawRes="@raw/kalp"
+       tools:targetApi="n" />
+</LinearLayout>
